@@ -1,3 +1,4 @@
+# Connect to WRDS (assumes ~/.Rprofile and ~/.Renviron are properly configured)
 wrds <- wrdsconnect(user=user, pass=pass)
 
 # Pulls list of all libraries in WRDS
